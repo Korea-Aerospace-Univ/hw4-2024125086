@@ -22,7 +22,7 @@ int main(void) {//프로그램의 시작점
     } while (x != answer);//정답을 추측하는 값이 정답과 같지 않는 한 계속 실행
 
 
-    printf("%d\n", x);//시도횟수 
+    printf("%d\n", count);//시도횟수 
 
     return 0;//프로그램의 정상 종료
 }//함수의 시작과 끝인 Scope
